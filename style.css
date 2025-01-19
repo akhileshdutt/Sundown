@@ -365,11 +365,13 @@ img{
 #fixed-img{
     height: 28vw;
     width: 23vw;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 25px;
     position: fixed;
     z-index: 99;
     left: 52%;
     top: 25%;
     display: none;
+    background-size: cover;
+    background-position: center;
 }
