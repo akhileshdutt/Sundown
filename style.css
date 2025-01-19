@@ -361,3 +361,15 @@ img{
     top: 0  ;
     background-color: rgb(255, 152, 49);
 }
+
+#fixed-img{
+    height: 28vw;
+    width: 23vw;
+    background-color: red;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 99;
+    left: 52%;
+    top: 25%;
+    display: none;
+}
