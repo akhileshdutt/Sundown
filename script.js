@@ -20,6 +20,6 @@ var elems = document.querySelectorAll(".elem")
 elems.forEach(function(e){
     e.addEventListener("mouseenter", function(){
         var image = e.getAttribute("data-img")
-        fixed.style.backgroundImage = `url(${image})`
+        fixed.style.backgroundImage = `url(${image})`    // `url(${}) -> isko`"Tamplate litrals"kehte h 
     })
 })
