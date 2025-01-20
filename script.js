@@ -23,3 +23,13 @@ elems.forEach(function(e){
         fixed.style.backgroundImage = `url(${image})`    // `url(${}) -> isko`"Tamplate litrals"kehte h 
     })
 })
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
