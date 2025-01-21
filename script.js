@@ -33,3 +33,18 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+  window.onload = loaderAnimation;
+  function loaderAnimation() {
+    var loader = document.querySelector("#loader");
+    setTimeout(function () {
+        loader.style.top = "-100%";
+    }, 4200);                       // Wait for 4.2 seconds or page uper ho jayga
+}
+
+
+
+swiperAnimation()
+page4Animation()
+menuAnimation()
+loaderAnimation()
