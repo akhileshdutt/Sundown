@@ -24,22 +24,22 @@ elems.forEach(function(e){
     })
 })
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+// var swiper = new Swiper(".mySwiper", {
+//     slidesPerView: "auto",
+//     centeredSlides: true,
+//     spaceBetween: 30,
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//   });
 
   window.onload = loaderAnimation;
   function loaderAnimation() {
     var loader = document.querySelector("#loader");
     setTimeout(function () {
         loader.style.top = "-100%";
-    }, 4200);                       // Wait for 4.2 seconds or page uper ho jayga
+    }, 3700);                       // Wait for 4.2 seconds or page uper ho jayga
 }
 
 
